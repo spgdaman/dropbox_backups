@@ -107,15 +107,3 @@ with open(local_path, "rb") as f:
                 print(f"Uploaded {cursor.offset / file_size * 100:.2f}%...")
 logger.info("Upload completed.")
 print("Upload completed.")
-
-
-# # Paste your full token here directly (bypass .env for now)
-# DROPBOX_TOKEN = "sl.u.AFwwy5qYn7r1gwYv6cmAimjmN5nSZfAT1GmG82GSIw9ZalYctpuza_ETaMzhA1rCwQIyqaTokFAwqMHYQIKtZGGz3g_cSAPK4aPb45lDo62mrT0lpbKfKgUdWlGxtSTQlSm9HwHfJ6_mbd6a_BueTE47-BMDdeMTUGwNsINuSBfBaZ_g78cFg5i0K10in_yc5PoJ1eWok0swBv6AZa4VHF2-Zyk1t5YGoPXhWc2let0wGq-ElqKNWTZ23bIBZ1_cqeHFPMCqOhKfO0rKUFl2IYL2Uapb-WRSYqLFMea-C3wV1_0dOo7NmF9LqoMYgUHPVw2ceVVb78u8wgU3Cie_nRIbYdPPPg6Eifgif2fXTgWE4obpb8ZHzA9Wv-MEBoQ_9_YezhUCbPf-GuX0KKUL66Pmfu17Wofh3xM9OPCdUUKJUYEefVBJ6dhBedglBZAa38ewJ6c9RzrjlVOcYj0PbUz90ute9pYR5h6BvU3JosKPge8-Y5wJd1DqWY0O4aCXXpldCIB--Hcr_SAQ_4jliTnPKJOQdiskosQ00LBRTf6ZnuXYqhguD5y32JOrF2w7OrqSmLCfRe5hDWk-4HtVZys6YguUnEuEsil5wdgMu4lzzxUfqn6YqjyYxK1ddhIKzyjoUhTCh1Q27npMeKL-6jEc2hYBbSoxnrZ1Re2kCBsmGSB0_z99V2oMbw3GqtPTrDtn1apwKuP8IcNn8p3_7VSwKkc38Mk5KWn9Cgs1A4035j59pLvFckG78x4uDdZWRQRQ4mJQIYhhF8fjIbciZe3_P3jw9KlYN4H64byEUzMPu-wH5lgbvJnQBE-MBAPGQn3wclDmzQNi8_8UEDZ8dyWhdNWzV7WCfctiVUSfX4-pwktxGilReldPx24TC12Loq_bPLHS0JLSGRF3tcxuJwDqErDj4Ps6o41iHfb_nx5DSJkD-hEEZ1sgnIXz7lwKNvyzuASjm1WUAgBLm1-_1wNbaY_MRC9ZWp9lwPp2KPzqmaqlJAY4I1Wf3LXDBswcG8I4Vb0nJByR-nOyLNJJPHhnENqvMTtCv6bPPlDs3GPx74WdTJg61Mnb4qDY1oFV6RJdgzBaLXtHrfxe8vLDUUVQytvVRmU0fLhXe0HkLF1WFUR1DDDPfjlHyjbWESvxi_HjoLQKrj_aXWAFuSyUikVl5IqdfopeWkTgRk-QNHOepvAen80rhC1D4ykeMekeCGEkHL9cfrEvjqRoQIe6wfMbzt7v5LYsVyCrscWEs2Nd3oeL8Ha-pGF7uwZf_WKe1qA43cEm6QhgVEz3kAQNCzTc-8EaNLlkusS3uM2phI-Kahgz4uee03DiFtPhAnwas6vGeaNfbY1PuscTHiQNQV2oqhsqrIyH7FpPbZ6e8amj7qPEBLTUwWrgF44E4yViDgF8BYknIjbhUPStsNFPHFvOihBLhOOrgOzKLVfYYs_39A"
-# DROPBOX_DIR = "/Backups"  # <- Must match your app name if using App Folder access
-# LOCAL_FILE = "C:/Users/Simon/Desktop/uploads_status.log"
-# REMOTE_FILE = f"{DROPBOX_DIR}/uploads_status.log"
-
-# with open(LOCAL_FILE, "rb") as f:
-#     dbx = dropbox.Dropbox(DROPBOX_TOKEN)
-#     dbx.files_upload(f.read(), REMOTE_FILE, mode=dropbox.files.WriteMode.overwrite)
-#     print("Upload succeeded.")
